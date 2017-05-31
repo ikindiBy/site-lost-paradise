@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Zrnic";
+	src: url("../fonts/zrnic/zrnic.eot");
+	src: url("../fonts/zrnic/zrnic.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/zrnic/zrnic.woff") format("woff"),
+			 url("../fonts/zrnic/zrnic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Zurich";
+	src: url("../fonts/zurich/Zurich__Black_Extended_BT.eot");
+	src: url("../fonts/zurich/Zurich__Black_Extended_BT.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/zurich/Zurich__Black_Extended_BT.woff") format("woff"),
+			 url("../fonts/zurich/Zurich__Black_Extended_BT.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/raleway/Raleway-Medium.eot");
+	src: url("../fonts/raleway/Raleway-Medium.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/raleway/Raleway-Medium.woff") format("woff"),
+			 url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "RalewayBold";
+	src: url("../fonts/raleway/Raleway-Bold.eot");
+	src: url("../fonts/raleway/Raleway-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/raleway/Raleway-Bold.woff") format("woff"),
+			 url("../fonts/raleway/Raleway-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/playfair-display/PlayfairDisplay-Regular.eot");
+	src: url("../fonts/playfair-display/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/playfair-display/PlayfairDisplay-Regular.woff") format("woff"),
+			 url("../fonts/playfair-display/PlayfairDisplay-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+

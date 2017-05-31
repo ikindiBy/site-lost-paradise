@@ -1,0 +1,686 @@
+body
+{
+    font-family: 'Myriad Pro', sans-serif;
+
+    position: relative;
+
+    overflow-x: hidden;
+
+    width: 1400px;
+    min-width: 320px;
+    margin: auto;
+
+    background-color: #fff;
+}
+
+header
+{
+    position: relative;
+
+    width: 100%;
+    min-height: 84px;
+
+    background-image: url(../images/header.jpg);
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+.head_line
+{
+    font-size: 18px;
+
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 84px;
+
+    background-color: rgba(255,255,255,.5);
+}
+
+.logo_head span:first-child,
+.logo_foot span:first-child
+{
+    font-family: 'Zrnic';
+
+    margin-top: 16px;
+
+    text-transform: uppercase;
+}
+
+.logo_head span:last-child,
+.logo_foot span:last-child
+{
+    font-family: 'Zurich';
+
+    margin-top: 16px;
+
+    text-transform: uppercase;
+}
+
+
+.navbar-brand span:first-child,
+.brand_foot span:first-child
+{
+    font-size: 40px;
+
+    display: inline-block;
+
+    color: rgb(242, 57, 74);
+    text-shadow: none;
+}
+
+.navbar-brand span:last-child,
+.brand_foot span:last-child
+{
+    font-size: 40px;
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin-right: 1px;
+
+    color: rgb(60, 60, 60);
+    text-shadow: none;
+}
+
+.social a
+{
+    font-size: 18px;
+
+    color: rgb(60, 60, 60);
+}
+
+.social a:hover
+{
+    color: #000;
+}
+
+.head_line .social
+{
+    margin-top: 30px;
+}
+
+
+.head_line .social a
+{
+    margin-left: 20px;
+}
+
+.head_line .social a:hover
+{
+    color: #000;
+}
+
+
+.main_img
+{
+    margin-bottom: 60px;
+}
+
+.main_image_wrap
+{
+    padding: 0;
+
+    border-right: 2px solid #000;
+}
+
+.main_img img,
+.wrap_cont_new img,
+.article_left_1 img,
+.article_left_2 img,
+.article_right_1 img,
+.article_right_2 img
+{
+    width: 100%;
+}
+
+.main_sect .container
+{
+    width: 1148px;
+}
+
+.wrap_cont_new
+{
+    position: relative;
+
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+
+    color: #fff;
+    border-bottom: 2px solid rgb(243,243,243);
+}
+
+
+.news_label
+{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.news_top
+{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+
+    display: inline-block;
+
+    text-align: left;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.news_h3
+{
+    font-size: 25px;
+
+    position: absolute;
+    top: 53%;
+    left: 17%;
+
+    color: #fff;
+}
+
+.news_bott
+{
+    line-height: 1.7;
+
+    position: absolute;
+    top: 65%;
+    left: 16%;
+
+    width: 550px;
+    height: 38px;
+
+    text-align: center;
+}
+
+.read_news_btn
+{
+    position: absolute;
+    top: 78%;
+    left: 42%;
+}
+
+.social_rectang
+{
+    position: absolute;
+    right: 4px;
+
+    width: 37px;
+    height: 41px;
+
+    border-radius: 3px;
+}
+
+.rect_1
+{
+    top: 2px;
+
+    background-color: rgb(57, 89, 149);
+}
+
+.rect_2
+{
+    top: 45px;
+
+    background-color: rgb(33, 164, 222);
+}
+
+.rect_3
+{
+    top: 88px;
+
+    background-color: rgb(219, 146, 176);
+}
+
+.rect_4
+{
+    top: 131px;
+
+    background-color: rgb(33, 164, 222);
+}
+
+
+.social_rectang i
+{
+    line-height: .857;
+
+    width: 100%;
+    margin-top: 13px;
+
+    text-align: center;
+
+    color: rgb(254, 254, 254);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
+
+.social_rectang i:hover
+{
+    color: #000;
+}
+
+.articles_first,
+.articles_second
+{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+
+    border-bottom: 2px solid rgb(243,243,243);
+}
+
+.articles_first
+{
+    position: relative;
+}
+
+
+article a
+{
+    position: absolute;
+    bottom: 0;
+
+    margin-top: 10px;
+}
+
+article h2
+{
+    font-family: 'RalewayBold';
+    font-size: 25px;
+    line-height: 1.2;
+
+    margin-top: 22px;
+    margin-bottom: 0;
+
+    color: rgb(60, 60, 60);
+}
+
+.art_wrap_img
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 214px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.art_wrap_img .rect_1
+{
+    top: initial;
+    right: 2px;
+    bottom: 2px;
+    left: initial;
+}
+
+.art_wrap_img .rect_2
+{
+    top: initial;
+    right: 44px;
+    bottom: 2px;
+    left: initial;
+}
+
+.art_wrap_img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.article_left_1 p,
+.article_left_2 p,
+.article_right_1 p,
+.article_right_2 p
+{
+    line-height: 1.714;
+
+    margin-bottom: 0;
+
+    text-align: left;
+
+    color: rgb(106, 106, 106);
+}
+
+.article_left_2 p,
+.article_right_2 p
+{
+    font-family: 'PlayfairDisplay';
+}
+
+.article_left_1 span,
+.article_left_2 span,
+.article_right_1 span,
+.article_right_2 span
+{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.article_left_1 span,
+.article_left_2 span,
+.article_right_1 span,
+.article_right_2 span
+{
+    color: rgb(106,106,106);
+}
+
+.article_left_1 span:first-child,
+.article_left_2 span:first-child,
+.article_right_1 span:first-child,
+.article_right_2 span:first-child
+{
+    color: rgb(97, 178, 188);
+}
+
+.carousel .news_bott
+{
+    color: #fff;
+}
+
+.author_avatar
+{
+    position: relative;
+
+    width: 300px;
+    margin: auto;
+}
+
+.author_avatar img
+{
+    width: 100%;
+}
+
+.triangle
+{
+    position: absolute;
+
+    width: 0;
+    height: 0;
+}
+
+.topleft
+{
+    top: 0;
+    left: 0;
+
+    border-top: 106px solid rgb(243,243,243);
+    border-right: 150px solid transparent;
+}
+
+.topright
+{
+    top: 0;
+    right: 0;
+
+    border-top: 106px solid rgb(243,243,243);
+    border-left: 150px solid transparent;
+}
+
+.botleft
+{
+    bottom: 0;
+    left: 0;
+
+    border-right: 50px solid transparent;
+    border-bottom: 180px solid rgb(243,243,243);
+}
+
+.botright
+{
+    right: 0;
+    bottom: 0;
+
+    border-bottom: 180px solid rgb(243,243,243);
+    border-left: 50px solid transparent;
+}
+
+.panel-body .social a
+{
+    margin-left: 16px;
+}
+
+.author_avatar
+{
+    margin-bottom: 16px;
+}
+
+.about_author
+{
+    margin-bottom: 40px;
+}
+
+.panel-body ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.panel-body li
+{
+    margin-bottom: 20px;
+}
+
+.panel-body li:last-child
+{
+    margin-bottom: 0;
+}
+
+.panel-body li a
+{
+    font-family: 'Raleway';
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    color: rgb(60,60,60);
+}
+
+.wrap_subscr
+{
+    padding: 0 15px;
+}
+
+.subm_subscr
+{
+    display: block;
+
+    text-align: center;
+}
+
+.pop_post
+{
+    font-size: 11px;
+
+    margin-top: 62px;
+
+    text-transform: uppercase;
+}
+
+.pop_post:first-child
+{
+    margin-top: 42px;
+}
+
+.pop_post img
+{
+    margin-right: 15px;
+
+    vertical-align: top;
+}
+
+.pop_post h5
+{
+    font-family: 'Raleway';
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.5;
+
+    margin-bottom: 0;
+
+    color: rgb(60, 60, 60);
+}
+
+.descr_subsc
+{
+    font-family: 'PlayfairDisplay';
+    line-height: 1.7;
+
+    color: rgb(106, 106, 106);
+}
+.pop_post span
+{
+    font-family: 'PlayfairDisplay';
+
+    color: rgb(106, 106, 106);
+}
+
+.post_descr
+{
+    display: inline-block;
+
+    width: 50%;
+
+    text-align: left;
+}
+
+.insta_panel
+{
+    padding: 0;
+}
+
+.wrap_insta img:nth-child(odd)
+{
+    margin-right: 18px;
+}
+
+.wrap_insta img:nth-child(-n+2)
+{
+    margin-bottom: 18px;
+}
+
+.tags_set
+{
+    padding: 0 6px;
+}
+
+.tags_set .btn
+{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 1px 17px;
+}
+
+.tags_set .btn:last-child
+{
+    margin-right: 0;
+}
+
+.tags_pan
+{
+    padding-bottom: 30px;
+}
+
+.last_line
+{
+    border-bottom: 2px solid rgb(243,243,243);
+}
+
+.main_footer
+{
+    display: block;
+
+    width: 100%;
+    height: 140px;
+    margin-top: 47px;
+
+    border-bottom: 4px solid #fff;
+    background-color: #ccc;
+}
+
+.logo_foot
+{
+    display: inline-block;
+
+    height: 100%;
+    margin-top: 0;
+    margin-right: 184px;
+}
+
+.brand_foot span:last-child
+{
+    margin-right: 0;
+}
+
+.brand_foot
+{
+    display: block;
+
+    margin-top: 27px;
+    margin-left: 70px;
+}
+
+.social_foot,
+.made_foot
+{
+    display: inline-block;
+
+    vertical-align: middle;
+}
+
+.social_foot
+{
+    font-size: 18px;
+
+    margin-right: 340px;
+
+    color: rgb(60, 60, 60);
+}
+
+.social_foot i
+{
+    margin-right: 25px;
+}
+
+.social_foot i:hover
+{
+    color: #000;
+}
+
+.made_foot
+{
+    color: rgb(106, 106, 106);
+}
+
+.made_foot i,
+a
+{
+    color: rgb(97, 178, 188);
+}
+
+.grey_zone
+{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 95px;
+
+    background-color: rgb(243,243,243);
+}
+
+.righ_bar
+{
+    position: absolute;
+    z-index: 33;
+}

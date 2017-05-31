@@ -1,0 +1,187 @@
+body {
+
+	font-size: 14px;
+}
+
+.container {
+	width: 1400px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	text-transform: uppercase;
+}
+
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+	margin-right: 20px;
+    margin-left: 80px;
+}
+
+.navbar-right {
+	margin-right: 70px;
+}
+
+.carousel {
+	margin:0 auto 94px auto;
+}
+
+.img-responsive, .thumbnail > img, 
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.carousel .item {
+	height: 500px;
+	background-color: #fff;
+}
+
+.carousel-indicators {
+	bottom: -35px
+}
+
+.carousel-indicators .active{
+	background-color: rgb(97,178,188);
+}
+
+.carousel-indicators li {
+	border: none;
+	background-color: rgb(234,234,234);
+	margin: 1px 5px;
+}
+
+.carousel-control {
+	opacity:0;
+}
+
+.carousel-control:hover {
+	opacity:0.1;
+}
+
+.navbar {
+	min-height: 84px;
+	border-radius: 0;
+	border-bottom: 1px solid #fff;
+	border-right: 2px solid #fff;
+	border-top: none;
+	border-left: none;
+	text-shadow: 1px 1px 1px rgb(137,137,137);
+	background-color: rgba(255,255,255,0);
+}
+
+.navbar .navbar-nav > li > a, .navbar .navbar-brand {
+	color: rgb(60,60,60);
+
+}
+
+.navbar-nav > li > a{
+		padding: 31px 0px 31px 34px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color: rgb(242,57,74);
+}
+
+.panel {
+  border-width: 2px;
+  border-color: rgb(243, 243, 243) ;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: 0 0 0 2px rgb(85, 85, 85), 0 0 0 4px rgb(243, 243, 243);
+  text-align:center;
+  margin-bottom: 30px;
+  padding: 30px 25px 40px 25px;
+}
+
+.panel:last-child {
+  margin-bottom: 0px;
+}
+
+.panel h4{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(97, 178, 188);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:20px;
+  margin-top: 0;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+.btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: rgb(97, 178, 188);
+  font-size: 18px;
+  line-height: 1.7;
+  height: 40px;
+}
+
+.btn-sm {
+	font-size: 14px;
+	line-height: 2.1;
+}
+
+.btn-xs {
+	font-size: 13px;
+	line-height: 1.9;
+  	height: 28px;
+  	border-radius: 14px;
+  	font-weight: 800;
+}
+
+.btn-default {
+	background-color: rgba(255,255,255,.3);
+	font-family: "Raleway", sans-serif;
+	color: #fff;
+}
+
+.btn-info {
+	border: 2px solid #fff;
+}
+
+.btn:hover, .btn:focus {
+ background-color: rgb(150, 200, 200);
+}
+
+.btn-default:hover {
+	color: #000;
+}
+
+.label {
+	border-radius: 5.25em;
+	border: 2px solid #fff;
+	padding: 3px 20px;
+ 	font-weight: bold;
+  	text-transform: uppercase;
+}
+
+.form-control {
+	border:2px solid rgb(243, 243, 243);
+	border-radius: 20px;
+	background-color: rgb(255, 255, 255);
+	height: 40px;
+	font-family: "Minion Pro";
+	text-transform: uppercase;
+	color: rgb(173, 173, 173);
+	text-align: center;
+}
+ 
+.form-control:focus, .form-control:hover {
+	border: 2px solid  rgb(97, 178, 188);
+	-webkit-box-shadow : none;
+	box-shadow : none;
+}
